@@ -4,7 +4,7 @@
   "description": "Reflections | Projections 2019 Website",
   "main": "index.js",
   "scripts": {
-    "dev": "node server.js",
+    "dev": "next",
     "build": "next build",
     "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,9 +23,10 @@
     "@zeit/next-css": "^1.0.1",
     "express": "^4.16.4",
     "moment": "^2.24.0",
-    "next": "^7.0.2",
+    "next": "^7.0.3",
     "prop-types": "^15.7.2",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "react-image-mapper": "0.0.14"
   }
 }
